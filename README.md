@@ -33,7 +33,7 @@ Get familiar with the codebase! Make sure you have the necessary dependencies in
 ```console
 mkdir build
 cd build
-conan install ..
+conan install .. --build=gtest
 ```
 
 ## Build

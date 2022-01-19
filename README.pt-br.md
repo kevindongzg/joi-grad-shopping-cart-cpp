@@ -32,7 +32,7 @@ Familiarize-se com a base de código! Certifique-se de ter as dependências nece
 ```console
 mkdir build
 cd build
-conan install ..
+conan install .. --build=gtest
 ```
 
 ## Compilar e gerar o pacote final
